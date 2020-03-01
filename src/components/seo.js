@@ -68,7 +68,16 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <link
+        href="https://fonts.googleapis.com/css?family=Lato&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        href="https://fonts.googleapis.com/css?family=La+Belle+Aurore&display=swap"
+        rel="stylesheet"
+      ></link>
+    </Helmet>
   )
 }
 

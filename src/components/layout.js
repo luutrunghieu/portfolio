@@ -7,40 +7,42 @@
 
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import { Layout } from "antd"
+import "../styles/index.scss"
+import NavBar from "./nav-bar"
+import Particles from "react-particles-js"
+const { Content } = Layout
 
-import Header from "./header"
-import "./layout.css"
-
-const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
+const MyLayout = ({ children, ...rest }) => {
   return (
-    <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
-    </>
+    <Layout>
+      <NavBar {...rest} />
+      <Layout>
+        <Particles
+          style={{ position: "absolute" }}
+          params={{
+            particles: {
+              number: {
+                value: 70,
+              },
+              size: {
+                value: 3,
+              },
+            },
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+              },
+            },
+          }}
+          canvasClassName="particles"
+        />
+        <Content>{children}</Content>
+      </Layout>
+    </Layout>
   )
 }
 
@@ -48,4 +50,4 @@ Layout.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export default Layout
+export default MyLayout

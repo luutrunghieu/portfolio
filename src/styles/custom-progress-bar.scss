@@ -1,0 +1,19 @@
+.custom-progress-bar {
+  position: relative;
+  margin: 40px 0;
+  .ant-progress-text {
+    display: none;
+  }
+  .progress-label {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    color: $white;
+  }
+  .progress-percent {
+    position: absolute;
+    top: -15px;
+    right: 3em;
+    color: $white;
+  }
+}

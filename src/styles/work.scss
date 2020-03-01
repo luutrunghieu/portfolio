@@ -1,0 +1,14 @@
+.work-page {
+  height: 100vh;
+  background: $darker-gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $darker-gray;
+  padding: 40px;
+  .title {
+    font-size: 60px;
+    color: $primary-color;
+    font-weight: bold;
+  }
+}

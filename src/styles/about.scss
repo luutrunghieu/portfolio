@@ -1,0 +1,24 @@
+.about-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $darker-gray;
+  .title {
+    font-size: 60px;
+    color: $primary-color;
+    font-weight: bold;
+  }
+  .content {
+    color: $white;
+  }
+
+  .avatar-wrapper {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 2rem auto;
+    background: url('../images/avatar.png');
+    background-size: contain;
+  }
+}

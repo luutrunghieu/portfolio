@@ -1,0 +1,21 @@
+.side-bar {
+  background: $light-black;
+  height: 100vh;
+  .ant-layout-sider-children {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ant-menu {
+    &.ant-menu-dark {
+      background: $light-black;
+      .ant-menu-item-selected {
+        background-color: $light-black;
+        .anticon {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

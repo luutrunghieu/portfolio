@@ -1,0 +1,16 @@
+.custom-progress-circle {
+  position: relative;
+  display: inline-block;
+  margin: 40px auto;
+  .ant-progress-circle {
+    .ant-progress-text {
+      color: $white;
+    }
+  }
+  .progress-label {
+    position: absolute;
+    bottom: -40px;
+    left: 20%;
+    color: $white;
+  }
+}

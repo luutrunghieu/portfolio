@@ -1,0 +1,42 @@
+.contact-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: $darker-gray;
+  padding: 40px;
+  .title {
+    font-size: 60px;
+    color: $primary-color;
+    font-weight: bold;
+  }
+  .ant-input {
+    background: $dark-gray;
+    color: $primary-color;
+    margin-bottom: 20px;
+    border: none;
+  }
+  .send {
+    background: $darker-gray;
+    color: $primary-color;
+    border: 1px $primary-color solid;
+    border-radius: 3px;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 20px;
+    &:hover {
+      color: $black;
+      background: $primary-color;
+    }
+  }
+  .right {
+    font-family: "La Belle Aurore";
+    font-size: 2rem;
+    color: $light-gray;
+    .content {
+    }
+    .author {
+      text-align: right;
+    }
+  }
+}
