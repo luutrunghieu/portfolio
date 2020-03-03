@@ -10,8 +10,8 @@ const AboutPage = props => {
       <div className="about-page">
         <Row>
           <Col span={11} offset={1}>
-            <p class="title">About me</p>
-            <p class="content">
+            <p className="title">About me</p>
+            <p className="content">
               Professionally connected with the web development industry and
               information technology for many years. <br />
               <br />

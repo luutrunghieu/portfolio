@@ -1,5 +1,5 @@
 html {
-  font-family: "Lato";
+  font-family: "AvenirRegular";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -185,7 +185,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em "Lato", serif;
+  font: 112.5%/1.45em "AvenirRegular", serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -200,7 +200,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: "Lato", serif;
+  font-family: "AvenirRegular", serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -621,6 +621,7 @@ pre tt:after {
   }
 }
 @import "./variables.scss";
+@import "./fonts.scss";
 @import "./layout.scss";
 @import "./home.scss";
 @import "./about.scss";

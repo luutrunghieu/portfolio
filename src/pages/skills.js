@@ -11,7 +11,7 @@ const SkillsPage = props => (
     <div className="skill-page">
       <Row>
         <Col>
-          <p class="title">Skills</p>
+          <p className="title">Skills</p>
         </Col>
       </Row>
       <Row>

@@ -9,7 +9,7 @@ const ContactPage = props => (
     <div className="contact-page">
       <Row>
         <Col>
-          <p class="title">Contact me</p>
+          <p className="title">Contact me</p>
         </Col>
       </Row>
       <Row gutter={80}>

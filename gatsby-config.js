@@ -34,10 +34,19 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          'primary-color': '#08FDD8',
-          'font-family': 'Lato',
+          'primary-color': '#BB86FC',
+          'font-family': 'AvenirRegular',
         }
       }
-    }
+    },
+    {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["AvenirRegular, AvenirBold, AvenirIt"],
+          urls: ["/styles/fonts.scss"],
+        },
+      },
+    },
   ],
 }

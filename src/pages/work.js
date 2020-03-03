@@ -9,7 +9,7 @@ const WorkPage = props => (
     <div className="work-page">
       <Row>
         <Col>
-          <p class="title">On processing...</p>
+          <p className="title">On processing...</p>
         </Col>
       </Row>
       <Row gutter={80}></Row>
