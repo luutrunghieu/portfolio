@@ -12,8 +12,8 @@ const CustomProgressBar = ({ label, percent, ...rest }) => {
               percent={value}
               {...rest}
               strokeColor={{
-                "0%": "#a8c0ff",
-                "100%": "#BB86FC",
+                "0%": "#FAFFD1",
+                "100%": "#A1FFCE",
               }}
             />
             <span className="progress-label">{label}</span>

@@ -5,15 +5,15 @@ import CountTo from "react-count-to"
 const CustomProgressCircle = ({ label, percent, ...rest }) => {
   return (
     <div className="custom-progress-circle">
-      <CountTo to={percent} speed={400} delay ={20}>
+      <CountTo to={percent} speed={400} delay={20}>
         {value => (
           <>
             <Progress
               percent={value}
               {...rest}
               strokeColor={{
-                "0%": "#a8c0ff",
-                "100%": "#BB86FC",
+                "0%": "#FAFFD1",
+                "100%": "#A1FFCE",
               }}
               type="circle"
             />
