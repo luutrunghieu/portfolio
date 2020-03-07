@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "animejs": "^3.1.0",
     "antd": "^3.26.11",
     "babel-plugin-import": "^1.13.0",
     "gatsby": "^2.19.7",

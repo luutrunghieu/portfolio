@@ -1,5 +1,6 @@
 import React from "react"
 import { Row, Col } from "antd"
+import AnimtedText from "../components/animted-text"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import CustomProgressBar from "../components/custom-progress-bar"
@@ -11,7 +12,7 @@ const SkillsPage = props => (
     <div className="skill-page">
       <Row>
         <Col>
-          <p className="title">Skills</p>
+          <p className="title"><AnimtedText text="Skills" /></p>
         </Col>
       </Row>
       <Row>

@@ -34,7 +34,7 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          'primary-color': '#15AC59',
+          'primary-color': '#27FB6B',
           'font-family': 'AvenirRegular',
         }
       }

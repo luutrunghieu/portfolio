@@ -2,6 +2,7 @@ import React from "react"
 import { Row, Col } from "antd"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import AnimtedText from "../components/animted-text"
 
 const AboutPage = props => {
   return (
@@ -10,7 +11,9 @@ const AboutPage = props => {
       <div className="about-page">
         <Row>
           <Col span={11} offset={1}>
-            <p className="title">About me</p>
+            <p className="title">
+              <AnimtedText text="About me" />
+            </p>
             <p className="content">
               Professionally connected with the web development industry and
               information technology for many years. <br />

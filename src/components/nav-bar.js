@@ -8,7 +8,7 @@ const { Sider } = Layout
 const NavBar = props => {
   const logoImage = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "Logo4.png" }) {
+      placeholderImage: file(relativePath: { eq: "logo1.png" }) {
         childImageSharp {
           fluid {
             ...GatsbyImageSharpFluid

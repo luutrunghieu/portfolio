@@ -2,6 +2,7 @@ import React from "react"
 import { Row, Col, Input, Button } from "antd"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import AnimtedText from "../components/animted-text"
 
 const ContactPage = props => (
   <Layout {...props}>
@@ -9,7 +10,9 @@ const ContactPage = props => (
     <div className="contact-page">
       <Row>
         <Col>
-          <p className="title">Contact me</p>
+          <p className="title">
+            <AnimtedText text="Contact me" />
+          </p>
         </Col>
       </Row>
       <Row gutter={80}>
