@@ -3,6 +3,7 @@ import { Row, Col } from "antd"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import AnimtedText from "../components/animted-text"
+import AvatarBackground from "../components/avatar-background"
 
 const AboutPage = props => {
   return (
@@ -28,7 +29,9 @@ const AboutPage = props => {
             </p>
           </Col>
           <Col span={12}>
-            <div className="avatar-wrapper"></div>
+            {/* <div className="avatar-wrapper"> */}
+              <AvatarBackground />
+            {/* </div> */}
           </Col>
         </Row>
       </div>

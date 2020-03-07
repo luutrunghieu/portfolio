@@ -2,7 +2,6 @@ import React, { useEffect } from "react"
 import { Row, Col } from "antd"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import AnimtedText from "../components/animted-text"
 import anime from "animejs"
 
 const WorkPage = props => {

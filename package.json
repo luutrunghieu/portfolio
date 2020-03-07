@@ -8,7 +8,9 @@
     "animejs": "^3.1.0",
     "antd": "^3.26.11",
     "babel-plugin-import": "^1.13.0",
+    "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.19.7",
+    "gatsby-background-image": "^0.10.2",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-antd": "^2.1.0",
     "gatsby-plugin-less": "^3.0.19",
@@ -17,6 +19,7 @@
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.29",
     "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-styled-components": "^3.1.20",
     "gatsby-plugin-web-font-loader": "^1.0.4",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
@@ -28,7 +31,8 @@
     "react-count-to": "^0.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
-    "react-particles-js": "^2.7.1"
+    "react-particles-js": "^2.7.1",
+    "styled-components": "^5.0.1"
   },
   "devDependencies": {
     "prettier": "^1.19.1"

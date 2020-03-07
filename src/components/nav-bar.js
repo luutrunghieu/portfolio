@@ -23,9 +23,16 @@ const NavBar = props => {
   return (
     <Sider defaultCollapsed={true} className="side-bar">
       <div className="logo">
-        <Image fluid={logoImage.placeholderImage.childImageSharp.fluid} />
+        <Link to="/">
+          <Image fluid={logoImage.placeholderImage.childImageSharp.fluid} />
+        </Link>
       </div>
-      <Menu className="navigation" theme="dark" mode="inline" selectedKeys={[location.pathname]}>
+      <Menu
+        className="navigation"
+        theme="dark"
+        mode="inline"
+        selectedKeys={[location.pathname]}
+      >
         <Menu.Item key="/">
           <Link to="/">
             <Icon type="home" />

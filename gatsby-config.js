@@ -34,10 +34,10 @@ module.exports = {
       options: {
         javascriptEnabled: true,
         modifyVars: {
-          'primary-color': '#27FB6B',
-          'font-family': 'AvenirRegular',
-        }
-      }
+          "primary-color": "#27FB6B",
+          "font-family": "AvenirRegular",
+        },
+      },
     },
     {
       resolve: "gatsby-plugin-web-font-loader",
@@ -48,5 +48,6 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-styled-components`,
   ],
 }
