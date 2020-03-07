@@ -13,7 +13,7 @@ const CustomProgressCircle = ({ label, percent, ...rest }) => {
               {...rest}
               strokeColor={{
                 "0%": "#FAFFD1",
-                "100%": "#A1FFCE",
+                "100%": "#52FFB8",
               }}
               type="circle"
             />
