@@ -16,20 +16,19 @@ const AboutPage = props => {
               <AnimtedText text="About me" />
             </p>
             <p className="content">
-              Software Engineer, Front End Developer based in Hanoi, Vietnam. <br />
+              Software Engineer, Front End Developer based in Hanoi, Vietnam.{" "}
+              <br />
               <br />
               Well-organised person, problem solver, independent employee with
-              high attention to detail. Fan of outdoor activities, photography, TV
-              series and a pet lover.
+              high attention to detail. Fan of outdoor activities, photography,
+              TV series and a pet lover.
               <br />
               <br /> Interested in the entire frontend spectrum and working on
               ambitious projects with positive and active people.
             </p>
           </Col>
           <Col span={12}>
-            {/* <div className="avatar-wrapper"> */}
-              <AvatarBackground />
-            {/* </div> */}
+            <AvatarBackground />
           </Col>
         </Row>
       </div>
