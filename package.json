@@ -9,7 +9,7 @@
     "antd": "^3.26.11",
     "babel-plugin-import": "^1.13.0",
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.19.7",
+    "gatsby": "^4.25.7",
     "gatsby-background-image": "^0.10.2",
     "gatsby-image": "^2.2.39",
     "gatsby-plugin-antd": "^2.1.0",
